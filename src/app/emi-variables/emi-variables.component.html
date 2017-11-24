@@ -1,0 +1,44 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+    <h2>Welcome to our website</h2>
+    <table>
+      <tr>
+        <td>
+          <label>Enter amount</label>
+        </td>
+        <td>
+          <input placeholder="Enter amount" [(ngModel)]="test.amount"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Enter rate of interest</label>
+        </td>
+        <td>
+          <input placeholder="Enter rate of interest" [(ngModel)]="test.rateOfInterest"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Enter tenture in year's</label>
+        </td>
+        <td>
+          <input placeholder="Enter tenture in year's" [(ngModel)]="test.tenture"/>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <button (click) = "calculate()">Submit</button>
+        </td>
+      </tr>
+      <tr>
+          <td>
+            <label>Emi is</label>
+          </td>
+          <td>
+            <input [(ngModel)]="test.emi" />
+          </td>
+        </tr>
+    </table>
+  </div>
